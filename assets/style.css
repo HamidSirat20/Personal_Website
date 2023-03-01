@@ -1,0 +1,143 @@
+:root{
+    --dark:#1e1c1c;
+    --dark80:rgba(32,30,30,0.8);
+    --dark70:rgba(32,30,30,0.7);
+    --ligb_blue:#7c96f7;
+    --orange:#ffba08;
+    --smoky_white:#f0f0f0;
+    --white:#fff;
+
+
+
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--dark);
+    margin: 0px;
+    overflow-x: hidden;
+}
+header{
+    min-height: 200px;
+    background-image: url("../images/header3.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.Logo{
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+}
+/*start menu*/
+.menu{
+    display: flex;
+    padding: 40px 80px 0px 0px;
+    align-items: center;
+
+
+}
+.menu ul{
+    margin: 0px;
+
+}
+.menu ul li{
+    display:inline-block;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--dark);
+
+}
+
+/*end menu*/
+/*hero section*/
+.hero{
+    display: flex;
+}
+.hero .right{
+    margin-left: 45px;
+    margin-top: 45px;
+}
+.hero .title{
+    color:var(--white);
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    margin: 0px 0px 18px 0px;
+}
+.hero .subtitle{
+    color: var(--smoky_white);
+    font-size: 30px;
+    line-height: 40px;
+    font-weight:450px;
+    margin-bottom: 30PX;
+}
+.hero .left img{
+    width: 777px;
+    height: 394px;
+    position: relative;
+    right: -149;
+}
+.btn{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-family: inherit;
+    outline: unset;
+    display: inline-block;
+}
+.btn-primary{
+    background-color: var(--orange);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: var(--dark);
+}
+.btn-secondary-outline{
+    border: 2px;
+    background-color: transparent;
+    color: var(--ligb_blue);
+    border-style: solid;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: var(--white);
+
+}
+/*end hero section*/
+/*about section*/
+.about{
+    display: flex;
+    background-image: url("../images/footer.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about .right{
+    padding-right: 46px;
+}
+.about .right .title{
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--dark80);
+    line-height: 65px;
+    margin: 0px 0px 45px 0px;
+
+}
+.about .description{
+    font-size: 20px;
+    color: var(--dark70);
+    line-height: 30px;
+    margin-bottom: 30px 
+    ;
+
+}
+/*end about section*/
