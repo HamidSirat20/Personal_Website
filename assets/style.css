@@ -112,6 +112,12 @@ header{
     color: var(--white);
 
 }
+.btn-secondary{
+    background-color: var(--ligb_blue);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
 /*end hero section*/
 /*about section*/
 .about{
@@ -140,6 +146,7 @@ header{
     line-height: 30px;
     margin-bottom: 30px;
     margin-right: 10px;
+    text-align: justify;
 
 }
 /*end about section*/
@@ -150,7 +157,8 @@ header{
     background-size: cover;
     position: relative;
     top: 0px;
-    padding-top: 0px;
+    padding-top: 200px;
+    padding-bottom: 145px;
 }
 .posts .title{
     font-size: 35px;
@@ -159,7 +167,7 @@ header{
     text-align: center;
 }
 .about .icons{
-   display: inline-block;
+   display: inline;
 }
 .posts .wrapper{
     display: flex;
@@ -174,6 +182,7 @@ header{
     box-shadow: 0px 4px 30px var(--dark70);
     border-radius: 10px;
     position: relative;
+    margin-left: 22px;
 }
 .card .thumbnail{
     width: 100%;
@@ -198,5 +207,38 @@ header{
     line-height: 36px;
     font-weight: bold;
 }
+.badge{
+    margin-left: 10px;
+    background-color: #e3e3e3;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--dark80);
+    border-radius: 10px;
 
+
+
+}
+.card-body{
+    padding: 22px 10px;
+
+}
+.card-description{
+    color: var(--dark70);
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+.views{
+    position: absolute;
+    bottom: 22px;
+}
+.views::before{
+    content: url(../images/eye-outline.png);
+    margin-right: 10px;
+    
+}
+.posts button.btn-secondary{
+    margin-top: 91px;
+}
 /*end post section*/
